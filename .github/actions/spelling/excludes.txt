@@ -1,0 +1,106 @@
+# See https://github.com/check-spelling/check-spelling/wiki/Configuration-Examples:-excludes
+(?:^|/)(?i)COPYRIGHT
+(?:^|/)(?i)LICEN[CS]E
+(?:^|/)3rdparty/
+(?:^|/)foobar$
+(?:^|/)go\.sum$
+(?:^|/)package(?:-lock|)\.json$
+(?:^|/)Pipfile$
+(?:^|/)pyproject.toml
+(?:^|/)requirements(?:-dev|-doc|-test|)\.txt$
+(?:^|/)vendor/
+\.a$
+\.ai$
+\.all-contributorsrc$
+\.avi$
+\.bmp$
+\.bz2$
+\.cer$
+\.class$
+\.coveragerc$
+\.crl$
+\.crt$
+\.csr$
+\.dll$
+\.docx?$
+\.drawio$
+\.DS_Store$
+\.eot$
+\.eps$
+\.exe$
+\.gif$
+\.git-blame-ignore-revs$
+\.gitattributes$
+\.gitkeep$
+\.graffle$
+\.gz$
+\.icns$
+\.ico$
+\.ipynb$
+\.jar$
+\.jks$
+\.jpe?g$
+\.key$
+\.lib$
+\.lock$
+\.map$
+\.min\..
+\.mo$
+\.mod$
+\.mp[34]$
+\.o$
+\.ocf$
+\.otf$
+\.p12$
+\.parquet$
+\.pdf$
+\.pem$
+\.pfx$
+\.png$
+\.psd$
+\.pyc$
+\.pylintrc$
+\.qm$
+\.s$
+\.sig$
+\.so$
+\.svgz?$
+\.sys$
+\.tar$
+\.tgz$
+\.tiff?$
+\.ttf$
+\.wav$
+\.webm$
+\.webp$
+\.woff2?$
+\.xcf$
+\.xlsx?$
+\.xpm$
+\.xz$
+\.zip$
+^   file starting with spaces$
+^  /
+^ $
+^$
+^128chars-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa$
+^256chars-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa$
+^32chars-aaaaaaaaaaaaaaaaaaaaaaa$
+^64chars-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa$
+^\.github/actions/spelling/
+^\Q. \E$
+^\Q...\E$
+^\Q.github/workflows/spelling.yml\E$
+^\Q.hidden\E$
+^\Qfile with spaces.txt\E$
+^\Qfile with symbols {}!\@\#$%^&*()_+~`'";:<>.,?[]|\\E$
+^\Qtest-umläütß-file.txt\E$
+^ASCII-LOVE-1-12789	$
+^ASCII_LOVE-128-255$
+^file with	tabs	$
+^file with spaces and no extension$
+^file with$
+^ÎµÎ»Î»Î·Î½Î¹ÎºÎ¬ Î¼Îµ ÎºÎµÎ½Î¬$
+^ÎµÎ»Î»Î·Î½Î¹ÎºÎ¬$
+^ð©$
+ignore$
